@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Zilla+Slab&display=swap');
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: 'Zilla Slab', serif;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #FEFAEB;
+}
+
+header {
+    background-color: #D2B48C;
+    color: #8C3826;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+h2 {
+    color: #8C3826;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #D2B48C;
+    text-align: center;
+    font-size: .60em;
+    font-style: italic;
+    font-family: 'Zilla Slab', serif;
+}
