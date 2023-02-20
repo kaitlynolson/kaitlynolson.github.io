@@ -64,12 +64,15 @@ nav a {
 }
 
 main {
-    padding: 0em, 2em, 2em, 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
     display: block;
 }
 
 .details {
-    padding: 0%, 20%
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 img {
