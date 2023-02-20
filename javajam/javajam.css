@@ -4,8 +4,8 @@ body {
     background-color: #FCEBB6;
 
     background-image: url(images/fadedroad50.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 
     color: #221811;
@@ -19,7 +19,7 @@ body {
     background-color: #FEFAEB;
     min-width: 900px;
     max-width: 1280px;
-    box-shadow: 5px 5px 5px #828282;
+    box-shadow: 5px 5px 5px #676767;
 }
 
 header {
@@ -27,7 +27,8 @@ header {
     color: #8C3826;
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -38,7 +39,8 @@ h2 {
     color: #8C3826;
 }
 
-h3 {
+h3,
+dt {
     color: #8C3826;
 }
 
@@ -49,35 +51,39 @@ h4 {
     padding-bottom: .25em;
 }
 
-main {
-    padding: 0em, 2em, 2em, 2em;
-    display: block;
-}
-
 nav {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    padding: 5px;
-}
-
-.details {
-    padding: 0%, 20%
-}
-
-#homehero {
-    height: 300px;
-    background-size: cover;
-    background-image: url(images/hero.jpg);
-	background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 nav a {
     text-decoration: none;
 }
 
+main {
+    padding: 0em, 2em, 2em, 2em;
+    display: block;
+}
+
+.details {
+    padding: 0%, 20%
+}
+
 img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
     padding: 0px, 10px;
+}
+
+#homehero {
+    height: 300px;
+    background-size: cover;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
 }
 
 footer {
