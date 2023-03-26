@@ -215,7 +215,7 @@ input, textarea {
     }
 
     nav ul {
-        flex-wrap: row nowrap;
+        flex-flow: row nowrap;
         justify-content: space-around;
     }
 
