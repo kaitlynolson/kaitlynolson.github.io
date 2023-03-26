@@ -122,7 +122,7 @@ dl {
 }
 
 table {
-    align-items: center;
+    margin: auto;
     width: 90%;
     border-spacing: 0;
 }
