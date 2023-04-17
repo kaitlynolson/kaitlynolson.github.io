@@ -15,6 +15,19 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5M3J2ENKTV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5M3J2ENKTV');
+    </script>
 </head>
 
 <body>
@@ -22,7 +35,7 @@
         <header>
             <h1><a href="index.html">JavaJam Coffee Bar</a></h1>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-            <script src="js/common.js" ></script>
+            <script src="js/common.js"></script>
         </header>
         <nav>
             <ul>
@@ -37,39 +50,40 @@
         <main>
             <div id="herocouch"></div>
             <h2>JavaJam Gear</h2>
-            <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our <a id="mug" href="#">Mug Club</a> and get a 10&percnt; discount on each cup of coffee you purchase &mdash; ask the barista for details.</p>
+            <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine!
+                Join our <a id="mug" href="#">Mug Club</a> and get a 10&percnt; discount on each cup of coffee you
+                purchase &mdash; ask the barista for details.</p>
             <p>JavaJam gear not only looks good, it&#39;s good to your wallet, too.</p>
             <p>Get a 10&percnt; discount when you wear a JavaJam shirt or bring in your JavaJam mug!</p>
 
-        <div id="flow">
-            <div class="item">
-                <img src="images/javashirt.jpg" alt="JavaJam Shirt">
-                <h3>JavaJam Shirt</h3>
-                <p>JavaJam shirts are comfortable to wear to school and around town. 100&percnt; cotton. XL only. &#36;14.95</p>
+            <div id="flow">
+                <div class="item">
+                    <img src="images/javashirt.jpg" alt="JavaJam Shirt">
+                    <h3>JavaJam Shirt</h3>
+                    <p>JavaJam shirts are comfortable to wear to school and around town. 100&percnt; cotton. XL only.
+                        &#36;14.95</p>
 
-                <form method="get" 
-                    action="https://webdevbasics.net/cart.html">
-                    <input type="submit" value="Add to Cart">
-                </form>
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
+
+                <div class="item">
+                    <img src="images/javamug.jpg" alt="JavaJam Mug">
+                    <h3>JavaJam Mug</h3>
+                    <p>JavaJam mugs carry a full load of caffeine (12 oz.) to jump-start your morning. &#36;9.95</p>
+
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
             </div>
-
-            <div class="item">
-                <img src="images/javamug.jpg" alt="JavaJam Mug">
-                <h3>JavaJam Mug</h3>
-                <p>JavaJam mugs carry a full load of caffeine (12 oz.) to jump-start your morning. &#36;9.95</p>
-
-                <form method="get"
-                    action="https://webdevbasics.net/cart.html">
-                    <input type="submit" value="Add to Cart">
-                </form>
-            </div>
-        </div>
 
         </main>
         <footer>
             Copyright &copy; 2023 JavaJam Coffee Bar <br>
             <a href="maito:kaitlyn@olson.com">kaitlyn@olson.com</a>
-            
+
             <div>
                 <p id="dateupdate"></p>
                 <script src="js/dateupdate.js"></script>
