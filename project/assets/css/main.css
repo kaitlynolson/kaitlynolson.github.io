@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+.iframe {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	border: 0px;
+	margin: 0px;
+}
+
 .resume {
 	font-size: 80%;
 	font-style: italic;
@@ -2047,7 +2055,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border: solid 2px;
+		border-bottom: solid 2px;
+		border-top: solid 2px;
 		margin-bottom: 2rem;
 		padding: 1.5rem;
 		/* background-color: rgba(200, 228, 200, 0.534); */
