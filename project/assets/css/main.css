@@ -2091,6 +2091,14 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
+	@media (max-width: 900px) {
+
+		.rightdates {
+			float: none;
+		}
+
+	}
+
 /* Button */
 
 	input[type="submit"],
