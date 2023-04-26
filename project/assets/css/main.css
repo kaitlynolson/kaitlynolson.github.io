@@ -80,9 +80,22 @@ input, select, textarea {
 	margin: 0px;
 }
 
+/* .contact {
+	color: black;
+} */
+
 .resume {
-	font-size: 80%;
+	font-size: 90%;
 	font-style: italic;
+}
+
+.bullets {
+	font-size: 85%;
+	font-style: normal;
+}
+
+.rightdates {
+	float: right;
 }
 
 /* Basic */
@@ -3985,7 +3998,7 @@ input, select, textarea {
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #2077ce;
 		}
 
 		#footer a {
